@@ -1,0 +1,93 @@
+.Photo-Profil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+header {
+  text-align: center;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 10px 0;
+  color: #005f73;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+  color: #0a9396;
+  border: 3px #94d2bd solid;
+  border-radius: 15px;
+  box-shadow: 6px 6px 6px #005f73;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+a{
+  color: #0a9396;
+  text-decoration: none;
+}
+
+.social-links a {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #005f73;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #0077ff; /* Couleur au survol */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto 30px auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-form button {
+  background-color: #0a9396;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #0077b6;
+}
