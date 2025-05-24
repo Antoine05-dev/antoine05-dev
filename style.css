@@ -77,17 +77,31 @@ a{
   font-family: 'Poppins', sans-serif;
 }
 
-.contact-form button {
-  background-color: #0a9396;
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-contact input,
+.form-contact textarea,
+.form-contact button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-contact button {
+  background-color: #009999;
   color: white;
-  border: none;
-  padding: 12px;
-  border-radius: 10px;
-  font-size: 1em;
   cursor: pointer;
+  border: none;
   transition: background-color 0.3s;
 }
 
-.contact-form button:hover {
-  background-color: #0077b6;
+.form-contact button:hover {
+  background-color: #007777;
 }
